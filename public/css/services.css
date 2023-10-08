@@ -1,0 +1,44 @@
+/* services.css
+Sofiia Romashova
+301303223
+October 8, 2023 */
+
+.col1 {
+    max-width: 100%;
+    position: relative;
+}
+
+.col1 img {
+    height: 100%;
+    width: 50%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.col1:hover img {
+    opacity: 0.3;
+  }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .col1:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+

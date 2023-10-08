@@ -1,0 +1,45 @@
+/* contact.css
+Sofiia Romashova
+301303223
+October 8, 2023 */
+
+form {
+    width: 500px;
+    display: inline-block;
+  }
+  label {
+    display: inline-block;
+    width: 200px;
+    padding-top: 10px;
+  }
+  input {
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color: lightgrey;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: black;
+    color: white;
+  }
+  .container {
+    border-radius: 5px;
+  }
+
+  #contact-img {
+    width: 40%;
+  }
+  #alternative-contact {
+    margin-top: 7%;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    text-align: center;
+  }

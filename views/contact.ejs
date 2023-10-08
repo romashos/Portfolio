@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sofiia</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/js/contact.js" defer></script>
+</head>
+
+<%- include ('partials/navbar.ejs') %>
+
+<body>
+    <div id="header">
+        <p style="margin-bottom:0;"><b>SOFIIA ROMASHOVA</b></p>
+        <p style="font-size:23px; margin : 0; padding-top:0">Unix/Linux/C#.NET | Java | Versatile Problem Solver | UI/UX </p>
+    </div>
+    <div style="width:100%; margin-bottom: 3%">
+        <img src="/img/contact.jpg" id="contact-img">
+        <h1><i>Message me</i></h1>
+    </div>
+    <form>
+        <div class="container">          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="John">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Smith">
+          
+              <label for="company">Company</label>
+              <input type="text" id="company" name="lastname" placeholder="ABC Company">
+
+              <textarea id="subject" name="subject" placeholder="Tell me what you liked most about my portfolio website!" style="height:200px; width:495px; margin-top:25px"></textarea>
+          
+              <input type="submit" value="Send Message" style="margin-top:25px" id="button">
+          </div> 
+    </form>
+
+    <div id="alternative-contact">
+        <p><a href=""><i class="fa fa-fw fa-phone"></i>647-878-8073</a></p>
+        <p><a href="mailto:sromasho@my.centennialcollege.ca"><i class="fa fa-fw fa-send"></i>sromasho@my.centennialcollege.ca</a></p>
+        <p><a href="https://www.linkedin.com/in/sofiiaromashova" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i>www.linkedin.com/in/sofiiaromashova</a></p>
+    </div>
+    <%- include ('partials/footer.ejs') %>
+</body>
+</html>

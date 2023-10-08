@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects</title>
+        <link rel="stylesheet" href="/css/projects.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <%- include ('partials/navbar.ejs') %>
+
+    <body>
+        <div id="headerProjects">
+            <p style="margin-bottom:0;"><b>My Projects</b></p>
+        </div>
+        <div class="segmentLeft">
+            <img src="/img/XMLGallery2.png">
+        </div>   
+        <div class="segmentRight">
+            <p><strong>Implementing a simple Image gallery using XML HTTP Request and Javascript:</strong></p>
+            <ul>
+                <li> Page displays the pictures that are specified in the files (images1.txt & images2.txt). 
+                    The file contains the names of the jpg files in order that they need to be displayed. </li>
+                <li> With each file name there is the information about how long a picture should
+                    be visible if the user does not click on “Previous” or “Next” button. </li>
+                <li> When the last picture is displayed it is followed by the first picture on the list.</li>
+                <li> The previous picture for the first
+                    picture is the last picture, and the next picture for the last picture is the first picture.</li>
+            </ul>
+        </div> 
+            <div class="segmentRight">
+                <img src="/img/BugSmasher.png">
+            </div>
+            <div class="segmentLeft">
+                <p><strong>Implementing a simple Bug Smasher browser-based (HTML5 canvas) game:</strong></p>
+                <ul>
+                    <li> A basic game with canvas and character.</li>
+                    <li> Score tracking and speed increase. </li>
+                    <li> Reset Score and Reset speed buttons. </li>
+                    <li> If the game becomes too challenging, the payer can reset the speed to the initial hopping interval
+                        by clicking the Reset Speed button.</li>
+                    <li>
+                        If the player wants, he can start again by resetting the score by clicking the Reset Score button.</li>
+                </ul>
+            </div>
+            <div class="segmentLeft">
+                    <img src="/img/Table.png">
+            </div>
+            <div class="segmentRight" style="font-size: 130%">
+                <p><strong>Javascript loops:</strong></p>
+                <ul>
+                    <li> Create an HTML document that implements a webpage that dynamically
+                        creates (using JavaScript code) a 10X10 HTML table and displays in each cell the value
+                        of row times the column to create a multiplication table.</li>
+                    <li> User selects the number of rows and columns to redraw a new table. </li>
+                    <li> Function is invoked when the visitor clicks on the page. </li>
+                    <li> System accepts user input for the number of rows and columns in the table and redraws
+                        the table as specified by user input size.</li>
+                </ul>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="segmentRight">
+                <img src="./img/InterSlides1.png">
+            </div>
+            <div class="segmentLeft">
+                <p><strong>Implementing an Intercative Image gallery - Photo Viewer:</strong></p>
+                <ul>
+                    <li> When the user clicks on a picture and it opens a window containing a zoomed version of the
+                        image.</li>
+                    <li> System allows user to add the picture to a favorites’ area at the bottom of the first
+                        page (add img nodes to the DOM). </li>
+                    <li> A maximum of 5 pics can be added to the favorites. After that a message is displayed to remove
+                        at least one favorite first. </li>
+                    <li> If the user clicks on a favorite, a Remove link (button) shows up next to that picture. If the user
+                        clicks it, the picture is removed from the favorites.</li>
+                </ul>
+            </div>
+            <div class="segmentLeft">
+                <img src="/img/StudentInfo_Project.png">
+            </div>
+            <div class="segmentRight">
+                <img src="/img/StudentInfo_ProjectOutput.png">
+            </div>
+            <div class="center">
+                <p><strong>Implementing a program to add Students to an array in Visual Studio (C#):</strong></p>
+                <ul>
+                    <li> User enters student personal information such as first and last name, city, etc.</li>
+                    <li> User enters student peracademic information: picks a program from drop down menu, chooses semester and enters GPA. User can also mark checkbox to indicate which courses 
+                        the student has already completed. </li>
+                    <li> Button "clear" clears all information entered. </li>
+                    <li> Button "ok" adds the student object to list on backend, and a message confirming the action appears.</li>
+                </ul>
+            </div>
+            <%- include ('partials/footer.ejs') %>
+    </body>
+</html>

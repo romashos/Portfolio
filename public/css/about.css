@@ -1,0 +1,19 @@
+/* about.css
+Sofiia Romashova
+301303223
+October 8, 2023 */
+
+#headerText {
+    width: 75%; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25%;
+    padding-bottom: 5%;
+   }
+
+.achievement {
+    width: 85%;
+    margin-top: 10%;
+}

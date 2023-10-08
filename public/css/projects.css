@@ -1,0 +1,48 @@
+/* projects.css
+Sofiia Romashova
+301303223
+October 8, 2023 */
+
+#headerProjects {
+    font-size: xx-large;
+    margin-bottom: 7%;
+    padding-top: 13%;
+    text-align: center;
+}
+
+.segmentLeft {
+    max-width: 40%;
+    height: 45%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    display:block;
+    text-align: left;
+}
+
+.segmentLeft img {
+    height: 100%;
+    width: 100%;
+}
+
+.segmentRight {
+    max-width: 40%;
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    text-align: left;
+    display:block;
+}
+
+.segmentRight img {
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    display:block;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom:5%;
+}
