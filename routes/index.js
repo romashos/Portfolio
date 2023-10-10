@@ -6,6 +6,11 @@
 const express = require('express');
 const router = express.Router();
 
+// Definition for a route handler for the home page ("/")
+router.get('/', (req, res) => {
+  res.render('home'); 
+});
+
 // Navigation to homepage using ejs
 router.get('/home', (req, res) => {
     res.render('home');
