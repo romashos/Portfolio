@@ -6,7 +6,7 @@
 let button = document.getElementById("button");
 button.addEventListener('click', submit);
 
-const myTimeout = setTimeout(submit, 7000);
+const myTimeout = setTimeout(submit, 2000);
 
 function submit() {
     // Selecting the input element and storing its value as a variable
