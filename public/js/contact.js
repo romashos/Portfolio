@@ -6,8 +6,6 @@
 let button = document.getElementById("button");
 button.addEventListener('click', submit);
 
-const myTimeout = setTimeout(submit, 500);
-
 function submit() {
     // Selecting the input element and storing its value as a variable
     let first = document.getElementById("fname").value;
@@ -19,7 +17,4 @@ function submit() {
     window.location.href = "/home";
   }
 
-  function myStopFunction() {
-    clearTimeout(myTimeout);
-  }
 
