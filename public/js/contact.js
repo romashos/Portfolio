@@ -16,6 +16,5 @@ function submit() {
     // redirect to homepage
     window.location.href = "/home";
     }
-  }
 
 
