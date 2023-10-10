@@ -15,8 +15,8 @@ function submit() {
     let co = document.getElementById("company").value;
     let subject = document.getElementById("subject").value;
 
-    window.location.href="http://127.0.0.1:5500/views/home.html";
-    // alert("function mechanism works!");
+    // redirect to homepage
+    window.location.href = "/home";
   }
 
   function myStopFunction() {
